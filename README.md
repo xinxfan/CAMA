@@ -1,14 +1,3 @@
-# Anonymous Artifact for USENIX Submission
-
-This repository contains the **anonymous artifact** accompanying our USENIX submission.
-It provides a complete implementation and evaluation pipeline for **collusive adversarial
-strategies in cooperative multi-agent reinforcement learning (c-MARL)**.
-
-⚠️ **Anonymity Notice**  
-This artifact is fully anonymized.  
-It contains **no identifying information** about the authors, institutions, or affiliations,
-and is intended **solely for anonymous peer review**.
-
 ## 1. Overview
 This artifact supports the experimental results reported in the paper and includes:
 - Implementations of **three collusive adversarial attacks**:
@@ -111,3 +100,6 @@ All required Python dependencies are listed in `requirements.txt`.
 
     ```bash
     python -u src/main.py --config=mappo_cama --env-config=sc2_policy
+
+#### Citation
+  Men Niu, Xinxin Fan, Quanliang Jing, Shaoye Luo, Yunfeng Lu. CAMA: Exploring Collusive Adversarial Attacks in c-MARL. arXiv:2603.20390, 2026. 
